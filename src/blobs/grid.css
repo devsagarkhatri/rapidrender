@@ -1,0 +1,21 @@
+.gridBorder {
+  border: 0px dashed rgba(0, 0, 0, 0.1);
+  height: 500px;
+  position: relative;
+}
+.boxDiv {
+  background: blue;
+  padding-top: 45%;
+  height: 480px;
+  width: 480px;
+}
+.hide {
+  visibility: hidden;
+}
+.boxtd {
+  border-right: rgb(222, 226, 230) 2px solid !important;
+}
+
+.boxtd1 {
+  max-width: 200px !important;
+}

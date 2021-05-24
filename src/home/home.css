@@ -1,0 +1,50 @@
+div,
+img {
+  /* border: 1px black solid; */
+}
+
+img {
+  object-fit: cover;
+}
+.svgImg {
+  max-width: 650px;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  z-index: -2;
+}
+
+.left {
+  float: left !important;
+}
+.right {
+  float: right !important;
+}
+.blockquote {
+  position: relative;
+  font: inherit;
+  padding: 1em 0 0 0;
+}
+
+.blockquote::before {
+  position: absolute;
+  content: "‘‘";
+  color: #418ad1;
+  font: 700 15em/2em serif;
+  opacity: 30%;
+  bottom: -1em;
+  right: 20% !important;
+  left: unset;
+  transform: rotate(180deg);
+}
+
+.blockquote::after {
+  position: absolute;
+  content: "‘‘";
+  color: #418ad1;
+  font: 700 15em/2em serif;
+  opacity: 50%;
+  top: -14rem;
+  left: 20%;
+  right: unset;
+}

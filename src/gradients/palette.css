@@ -1,0 +1,39 @@
+.fullBtn {
+  min-width: 100% !important;
+  height: 50px;
+}
+.scroll {
+  overflow-y: scroll;
+  height: 85vh;
+}
+/* css for the scrollbar attached with .scroll */
+.scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+.scroll::-webkit-scrollbar-track-piece {
+  background: transparent;
+  border-radius: 5px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  background-image: -webkit-linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+  border-radius: 50px;
+}
+
+.palettebg {
+  background: rgba(250, 250, 250, 0.1) !important;
+}
+.palettebg::before {
+  background: rgba(250, 250, 250, 0.1) !important;
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+  filter: blur(10px);
+}
