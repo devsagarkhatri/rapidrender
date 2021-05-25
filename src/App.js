@@ -6,7 +6,7 @@ import Patterns from "./patterns/patterns.jsx";
 import SVG from "./SVG/svg.jsx";
 import Home from "./home/home.jsx";
 import React from "react";
-import { Route, Switch, Redirect, Router } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 function App() {
   return (
     <React.Fragment>

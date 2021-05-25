@@ -16,6 +16,14 @@ class Patterns extends Component {
       "linear-gradient(90deg,grey,transparent,transparent,transparent,transparent,grey)",
     bgSize: "",
     bgPos: "",
+    ismsg: true,
+  };
+
+  componentDidMount = () => {
+    if (this.state.ismsg) {
+      alert("Click on the pattern to copy it to clipboard !");
+      this.setState({ ismsg: false });
+    }
   };
 
   handleColor = (update) => {
@@ -57,8 +65,6 @@ class Patterns extends Component {
   render() {
     var zero =
       "linear-gradient(90deg,grey,transparent,transparent,transparent,transparent,grey)";
-
-    var zeroSize = "";
 
     var rgb = this.state.r + "," + this.state.g + "," + this.state.b;
     var one =

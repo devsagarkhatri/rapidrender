@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 class Navbar extends Component {
   state = {};
 

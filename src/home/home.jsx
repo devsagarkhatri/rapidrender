@@ -36,7 +36,7 @@ class Home extends Component {
               className="p-0 mt-auto mb-auto  rounded-5 col-sm-6 "
               style={{ float: "left" }}
             >
-              <img src={workingLate} className="svgImg" />
+              <img src={workingLate} className="svgImg" alt="main navlogo" />
             </div>
           </div>
           <br />
@@ -72,13 +72,13 @@ class Home extends Component {
               className="p-0 mt-auto mb-auto  rounded-5 col-sm-6 "
               style={{ float: "right" }}
             >
-              <img src={blob} className="svgImg right" />
+              <img src={blob} className="svgImg right" alt="Lot of options" />
             </div>
           </div>
           <br />
           <div className="row align-items-md-stretch ">
             <div className="p-0 mt-auto mb-auto right col-sm-6 ">
-              <img src={fast} className="svgImg" />
+              <img src={fast} className="svgImg" alt="For turbo developers" />
             </div>
 
             <div
@@ -108,13 +108,21 @@ class Home extends Component {
               className="p-0 mt-auto mb-auto  rounded-5 col-sm-6 "
               style={{ float: "right" }}
             >
-              <img src={custom} className="svgImg right" />
+              <img
+                src={custom}
+                className="svgImg right"
+                alt="May the force be with you"
+              />
             </div>
           </div>
           <br />
           <div className="row align-items-md-stretch ">
             <div className="p-0 mt-auto mb-auto right col-sm-6 ">
-              <img src={clipboard} className="svgImg" />
+              <img
+                src={clipboard}
+                className="svgImg"
+                alt="No extra disk space"
+              />
             </div>
 
             <div
